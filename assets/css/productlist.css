@@ -1,0 +1,56 @@
+
+#product-list .raw {
+    padding: 10px;
+}
+
+#product-list .text {
+    text-align: center;
+    padding: 20px;
+   
+}
+
+#product-list h1 {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+#product-list  p {
+    line-height: 25px;
+    /* padding: 10px; */
+}
+
+#product-list .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+#product-list  #product-list .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#product-list .profile {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+#product-list .card-img {
+    max-width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+#product-list .card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius:5px;
+}
+#product-list .cardtext {
+    padding: 10px;
+}
+

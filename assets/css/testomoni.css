@@ -1,0 +1,71 @@
+section#Testomonial {
+    background-color: var(--primary);
+}
+
+#Testomonial .raw {
+    position: relative;
+    text-align: center;
+    padding: 40px;
+}
+
+#Testomonial .svg {
+    position: absolute;
+    top: 40%;
+    font-size: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+#Testomonial .text {
+    max-width: 800px;
+    margin: auto;
+}
+
+#Testomonial h1 {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#Testomonial p {
+    line-height: 25px;
+    padding: 10px;
+}
+
+#Testomonial h6 {
+    font-weight: 500;
+    font-size: 14px;
+    /* font-style: italic; */
+}
+
+#Testomonial .svg0 {
+    position: absolute;
+    right: 20px;
+    font-size: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#Testomonial .circle {
+    width: 1px;
+    height: 1px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+#Testomonial .dot {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 8px;
+}
+#Testomonial .circle.active {
+background-color:var(--black);
+}
+
+
+
+
